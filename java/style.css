@@ -1,0 +1,32 @@
+body{
+    background-color: purple;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 40px;
+}
+.counter-card{
+background-color: darkblue;
+width: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+
+}
+button {
+    padding: 12px 24px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 12px;
+    font-size: 20px;
+
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
